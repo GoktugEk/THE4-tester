@@ -5,7 +5,7 @@ import copy
 start_time = time.time()
 
 wrong_count = 0
-with open("the4_data.json","r") as file:
+with open("different_data.json","r") as file:
     lines = file.read().splitlines()
     for line in lines:
         data = line.split(":::")
